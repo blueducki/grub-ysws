@@ -1,0 +1,100 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Borio Deluxe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes gradientLoop {
+      0% { background-color: #3e2723; }
+      50% { background-color: #8d6e63; }
+      100% { background-color: #3e2723; }
+    }
+    body {
+      animation: gradientLoop 12s infinite;
+    }
+  </style>
+</head>
+<body class="text-white min-h-screen">
+
+  <nav class="bg-yellow-800/90 border-b-4 border-yellow-500">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-black text-white">Borio Deluxe 🍪</h1>
+      <ul class="hidden md:flex space-x-6 text-white font-medium">
+        <li><a href="#" class="hover:text-yellow-300">Home</a></li>
+        <li><a href="#stats" class="hover:text-yellow-300">Stats</a></li>
+        <li><a href="#features" class="hover:text-yellow-300">Features</a></li>
+        <li><a href="#eat" class="hover:text-yellow-300">Eat</a></li>
+        <li><a href="#faq" class="hover:text-yellow-300">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="max-w-screen-xl mx-auto px-4 sm:px-6 py-16 text-center">
+    <div class="flex flex-col items-center space-y-4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg3IEHAx9OSZdSJLo_tu6c7Mg7fnv4jefDKg&s" alt="Borio Bar" class="w-44 md:w-60 drop-shadow-xl border-4 border-yellow-500 rounded-lg">
+      <h2 class="text-4xl sm:text-5xl font-extrabold text-yellow-300">Borio</h2>
+      <p class="text-gray-300">Not oreo. Borio.</p>
+    </div>
+    <div class="mt-6 text-5xl hover:rotate-[360deg] duration-1000 transition-all cursor-pointer inline-block">🍪</div>
+  </section>
+
+  <section id="stats" class="max-w-screen-xl mx-auto px-4 sm:px-6 py-16 grid sm:grid-cols-3 gap-6">
+    <div class="bg-yellow-900 text-center p-6 shadow-lg border-l-4 border-yellow-500">
+      <p class="text-4xl font-bold text-yellow-300">99¢</p>
+      <p class="mt-2 uppercase">Cheap Bliss</p>
+    </div>
+    <div class="bg-yellow-800 text-center p-6 border border-yellow-400 rounded-none">
+      <p class="text-4xl font-bold text-yellow-200">12</p>
+      <p class="mt-2 uppercase">Per Pack</p>
+    </div>
+    <div class="bg-yellow-700 text-center p-6 rounded-lg shadow-inner">
+      <p class="text-4xl font-bold text-yellow-100">🔥</p>
+      <p class="mt-2 uppercase">Flavor Intensity</p>
+    </div>
+  </section>
+
+   <section id="features" class="max-w-screen-xl mx-auto px-4 sm:px-6 py-16 grid gap-8 md:grid-cols-3">
+    <div class="bg-yellow-700/80 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+      <h3 class="text-xl font-bold mb-2">Budget Friendly</h3>
+      <p>Tastes like Oreo.</p>
+    </div>
+    <div class="bg-yellow-700/80 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+      <h3 class="text-xl font-bold mb-2">Crumbly Goodness</h3>
+      <p>That crunch...</p>
+    </div>
+    <div class="bg-yellow-700/80 p-6 rounded-lg hover:scale-105 transition-transform duration-300">
+      <h3 class="text-xl font-bold mb-2">Goes with Anything</h3>
+      <p>Borio fits every vibe.</p>
+    </div>
+  </section>
+
+  <section id="eat" class="max-w-screen-xl mx-auto px-4 sm:px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold text-yellow-300 mb-6">Hover to Eat a Borio</h2>
+    <div class="disappear inline-block hover:opacity-0 transition-opacity duration-1000">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Oreo_Borio_%284545629206%29.jpg" alt="Borio Cookie" class="w-64 mx-auto rounded-lg border-4 border-yellow-400 shadow-xl">
+    </div>
+    <p class="mt-4 text-gray-300">Don’t hesitate. It’s gonna be gone anyway.</p>
+  </section>
+
+  <section id="faq" class="max-w-screen-xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-3 gap-6">
+    <div class="bg-yellow-700/80 p-5 border-l-8 border-yellow-300 shadow-md">
+      <h4 class="text-lg font-semibold">Is it better than Oreo?</h4>
+      <p class="text-sm mt-2 text-yellow-100">That's for your taste buds to decide. But yes.</p>
+    </div>
+    <div class="bg-yellow-800/90 p-5 shadow-inner">
+      <h4 class="text-lg font-semibold">Where's it made?</h4>
+      <p class="text-sm mt-2 text-yellow-100">A mystery.</p>
+    </div>
+    <div class="border border-yellow-500 p-5 text-left">
+      <h4 class="text-lg font-semibold">Why is there a cookie emoji?</h4>
+      <p class="text-sm mt-2 text-yellow-200">Because it's fun. Spin that cookie.</p>
+    </div>
+  </section>
+
+  <footer class="bg-yellow-900/90 text-center py-6 border-t-4 border-yellow-700">
+    <p class="text-gray-300 text-sm sm:text-base">&copy; 2025 Borio Deluxe Co. All crumbs reserved.</p>
+  </footer>
+
+</body>
+</html>
